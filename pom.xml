@@ -23,7 +23,12 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <liquibase.version>4.0.0-beta2</liquibase.version>
     </properties>
-
+	
+    <scm>
+	<connection>scm:git:http://github.com/liquibase/liquibase-compat.git</connection>
+	<url>https://github.com/liquibase/liquibase-compat</url>
+      	<tag>HEAD</tag>
+    </scm>
     <dependencies>
         <dependency>
             <groupId>org.liquibase</groupId>
