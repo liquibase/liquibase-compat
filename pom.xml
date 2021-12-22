@@ -7,7 +7,7 @@
     <packaging>jar</packaging>
     <version>4.0.0-beta3-SNAPSHOT</version>
     <name>Liquibase Compatibility Layer</name>
-    <description>Liquibase 3.x -&gt; 4.x Compatibility Layer</description>
+    <description>Liquibase 3.x -> 4.x Compatibility Layer</description>
     <url>https://github.com/liquibase/liquibase-compat</url>
 
 
@@ -22,7 +22,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <maven.compiler.source>1.8</maven.compiler.source>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <liquibase.version>4.0.0-beta2</liquibase.version>
+        <liquibase.version>4.6.1</liquibase.version>
     </properties>
 
     <issueManagement>
